@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Recipe Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Recipe Generator</h1>
+        <div class="input-section">
+            <textarea 
+                id="ingredientInput" 
+                placeholder="Enter ingredients or type of recipe you want (e.g., 'chicken pasta dinner' or 'vegetarian breakfast')"
+            ></textarea>
+            <button id="generateBtn">Generate Recipe</button>
+        </div>
+        <div class="recipe-output">
+            <div id="loadingSpinner" class="hidden">Generating recipe...</div>
+            <div id="recipeResult"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
